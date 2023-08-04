@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/todo_item_layout_tv_priority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="@string/todo_item_layout_tv_priority"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/todo_item_layout_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@id/todo_item_layout_tv_priority"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/fragment_todo_tv_title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/todo_item_layout_tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/todo_item_layout_tv_created_at"
+            android:text="@string/fragment_todo_tv_date"
+            android:textSize="11sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/todo_item_layout_tv_completed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/todo_item_layout_tv_title"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/todo_item_layout_tv_date"
+            android:text="@string/todo_item_layout_tv_completed"
+            android:textSize="11sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/todo_item_layout_tv_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/todo_item_layout_tv_date"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/fragment_todo_tv_description"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/todo_item_layout_tv_created_at"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/todo_item_layout_tv_title"
+            android:text="@string/todo_item_layout_tv_created_at"
+            android:textSize="11sp"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

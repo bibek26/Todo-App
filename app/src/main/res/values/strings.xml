@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Todo</string>
+    <string name="activity_login_tv_login">Login</string>
+    <string name="activity_login_et_username">Username</string>
+    <string name="activity_login_et_password">Password</string>
+    <string name="activity_login_btn_login">Login</string>
+    <string name="activity_login_btn_cancel">Cancel</string>
+    <string name="activity_register_tv_register">Register</string>
+    <string name="activity_register_et_confirm_password">Confirm Password</string>
+    <string name="activity_register_btn_register">Register</string>
+    <string name="activity_splash_tv_welcome">Welcome</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_category_btn_add_category">Add Category</string>
+    <string name="fragment_category_et_category">Category Name</string>
+    <string name="fragment_category_tv_category">Enter new category</string>
+    <string name="fragment_todo_tv_title">Title</string>
+    <string name="fragment_todo_tv_description">Description</string>
+    <string name="fragment_todo_tv_category">Category</string>
+    <string name="fragment_todo_tv_date">Complete by</string>
+    <string name="fragment_todo_tv_priority">Priority</string>
+    <string name="fragment_todo_rb_high">High</string>
+    <string name="fragment_todo_rb_medium">Medium</string>
+    <string name="fragment_todo_rb_low">Low</string>
+    <string name="fragment_todo_checkbox">Is Completed?</string>
+    <string name="fragment_todo_btn_add_todo">Add Todo</string>
+    <string name="todo_item_layout_tv_completed">Completed</string>
+    <string name="todo_item_layout_tv_priority">High</string>
+    <string name="category_item_layout_tv_category">Category</string>
+    <string name="new_category_menu">Create new category</string>
+    <string name="delete_all_categories">Delete all categories</string>
+    <string name="add_new_todo_menu">Add New Todo</string>
+    <string name="delete_all_categories_menu">Delete all categories</string>
+    <string name="fragment_todo_tv_target_date">Date</string>
+    <string name="delete_all_todos_menu">Delete all todos</string>
+    <string name="delete_all_todos_of_current_category_menu">Delete current category todos</string>
+    <string name="set_all_todos_completed_menu">Set all todos completed</string>
+    <string name="todo_item_layout_tv_created_at">Created at</string>
+    <string name="logout_menu">Logout</string>
+    <string name="delete_all_completed_todos_menu">Delete all completed todos</string>
+</resources>

@@ -1,0 +1,27 @@
+Category section
+----------------
+1. Create a category - Done
+2. Update a category - Done
+3. Delete a category - Done
+4. Get all categories - Done
+5. Delete all todos inside a category when a category is deleted - Done
+
+Todos section
+-------------
+1. Create a todo - Done
+2. Get all todos based on the category - Done
+3. Update a todo - Done
+4. Delete a todo - Done
+5. Delete all todos inside a category - Done
+6. Delete all todos - Done
+7. Delete all completed todos inside a category - Done
+
+Miscellaneous
+-------------
+1. Register a user - Done
+2. Login a user - Done
+3. Logout a user - Done
+4. Add a back button in the AppBar - Done
+5. Validation of form data in every form - Remaining
+6. Change SplashScreen - Remaining
+7. Add FloatingButton??? Why is floating button necessary if a todo is added from menu option, unless there is a need for two option to add a todo
